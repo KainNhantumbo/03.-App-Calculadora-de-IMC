@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/normalize.css" rel="stylesheet" type="text/css">
     <link href="/style.css" rel="stylesheet" type="text/css">
-    <script src="/app.js" defer></script>
     <title>Calculadora de IMC</title>
 </head>
 <body>
@@ -21,38 +20,37 @@
                 <div class="descricao">
                     Monitor
                 </div>
-                <label for="display-result">
-                    <textarea name="display-result" class="input display-result" placeholder="Aguarde os resultados da operação aqui!" cols="auto" readonly ></textarea>
-                </label>
+                <div>
+                    <textarea name="display-result" class="input display-result" placeholder="Aguarde os resultados da operação aqui..." rows="3" readonly></textarea>
+                </div>
                 <div class="descricao">
                     Insira os seus dados abaixo:
                 </div>
-                <label for="nome">
-                    <input type="text" class="input" id="nome" name="nome" placeholder="Escreva o seu nome..." required autocomplete="off">
-                </label>
-                <label for="idade">
-                    <input type="number" class="input" id="idade" name="idade" placeholder="Escreva a sua idade..." min="0" required>
-                </label>
-                <label for="altura">
-                    <input type="number" class="input" name="altura" id="altura" placeholder="Escreva a sua altura..." min="0" required>
-                </label>
-                <label for="peso">
-                    <input type="number" class="input" name="peso" id="peso"
-                    placeholder="Escreva a sua peso..." min="0" required>
-                </label>
+                <div>
+                    <input type="text" class="input" id="nome" placeholder="Escreva o seu nome..." required autocomplete="off">
+                </div>
+                <div>
+                    <input type="number" class="input" id="altura" placeholder="Escreva a sua altura..." min="0" required>
+                </div>
+                <div>
+                    <input type="number" class="input" id="peso"
+                    placeholder="Escreva o seu peso..." min="0" required>
+                </div>
                 <button class="input button" type="submit" id="btnSubmit">
-                    Submeter
+                    calcular
                 </button>
-                <button class="input button" type="reset">
-                    Resetar os campos
+                <button class="input button" type="reset" id="reset-values">
+                    Redefinir os campos
                 </button>
             </form>
         </section>
     </main>
     <footer>
         <div class="footer">
-            Cuide da sua saúde - obrigado.
+            Cuide bem da sua saúde - obrigado. <br>
+            Copyright © 2021 Kain Nhantumbo. Todos os Direitos Reservados.
         </div>
     </footer>
+    <script src="/app.js" defer></script>
 </body>
 </html>
