@@ -5,6 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    user-select: none;
+    resize: none;
 }
 
 .header {
@@ -23,13 +25,13 @@
 }
 
 .container {
-    margin-top: 5em;
+    margin-top: 4.5em;
     display: flex;
     justify-content: center;
 }
 
 .form {
-    width: 70%;
+    max-width: 90%;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -43,7 +45,6 @@
 .display-result {
     background-color: #533E48;
     color: #fff;
-    
 }
 
 .display-result::placeholder {
@@ -55,6 +56,11 @@
     padding: .5em .5em;
     width: 98%;
     border: .18rem solid #533E48;
+    border-radius: .3rem;
+}
+
+.input:active, .input:hover {
+    outline-color: #9A7489;
     border-radius: .3rem;
 }
 
