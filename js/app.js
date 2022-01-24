@@ -14,6 +14,10 @@ window.addEventListener('load', function () {
         // faz o cálculo de IMC
         const valorIMC = (peso / Math.pow(altura,2)).toFixed(2);
 
+        // checa se o resultado do cálculo é do tipo infinity
+        if (valorIMC === Infinity)
+        return monitor.textContent = 'Valor indeterminado. Tente novamente.';
+
         // classifica com base no resultado do cálculo de IMC
         const classificacao = classificar(valorIMC);
 
