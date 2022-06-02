@@ -13,10 +13,6 @@ Para calcular o IMC, basta inserir o seu nome, a altura (de preferência em metr
 Este aplicativo não guarda nenhum dados do usuário nem faz backups em nuvem.
 
 
-### Contato
-Para saber mais sobre esta aplicação, entre em contacto comigo através do e-mail:
-nhantumbok@gmail.com
-
 ***
 
 # BMI Calculation Application
@@ -31,9 +27,20 @@ For the calculation, the following properties are used: height and weight. The n
 To calculate your BMI, simply enter your name, height (preferably in meters) and your weight (can be in kilograms) in the respective fields and perform the calculation. The result will be displayed on the monitor.
 
 ## Data Persistence
-This app does not save any user data or do cloud backups.
+This app does not save any user data or cloud backups.
 
+***
+## Contact
 
-### Contact
-To know more about this application, contact me by email:
-nhantumbok@gmail.com
+**E-mail:** [nhantumbok@gmail.com](nhantumbok@gmail.com 'Send an email')\
+**Github:** [https://github.com/KainNhantumbo](https://github.com/KainNhantumbo 'See my github profile')  
+**Portifolio:** [https://portifolio-dev-kainnhantumbo.vercel.app](https://portifolio-dev-kainnhantumbo.vercel.app 'See my personal portifolio')
+
+### If you like this project, please consider leaving a star on this repository.
+
+### With kindest regards, Kain Nhantumbo from Mozambique.
+
+## License
+
+Licensed under MIT  
+**Copyright &copy; 2022 Kain Nhantumbo.**

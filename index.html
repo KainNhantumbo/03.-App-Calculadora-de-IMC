@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kain Nhantumbo">
-    <meta name="title" content="Calculadora de IMC">
-    <meta name="description" content="Calculadora de IMC e faz a classificação da saúde do usuário com base no valor do IMC.">
-    <meta name="keywords" content="calculadora, calculadora de IMC">
-    <link href="./favicon.svg" rel="icon">
-    <link href="./css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="./css/style.css" rel="stylesheet" type="text/css">
-    <title>Calculadora de IMC</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Kain Nhantumbo">
+	<meta name="title" content="Calculadora de IMC">
+	<meta name="description"
+		content="Calculadora de IMC e faz a classificação da saúde do usuário com base no valor do IMC.">
+	<meta name="keywords" content="calculadora, calculadora de IMC">
+	<link href="./favicon.svg" rel="icon">
+	<link href="./css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<title>Calculadora de IMC</title>
 </head>
+
 <body>
-    <header>
-        <div class="header">
-            Calculadora de IMC
-        </div>
-    </header>
-    <main>
-        <section class="container">
-            <form class="form">
-                <div class="descricao">
-                    Monitor
-                </div>
-                <div>
-                    <textarea name="display-result" class="input display-result" placeholder="Aguarde os resultados da operação aqui..." rows="4" readonly></textarea>
-                </div>
-                <div class="descricao">
-                    Insira os seus dados abaixo:
-                </div>
-                <div>
-                    <input type="text" class="input" id="nome" placeholder="Escreva o seu nome..." required autocomplete="off">
-                </div>
-                <div>
-                    <input type="number" class="input" id="altura" placeholder="Escreva a sua altura..." min="0" required>
-                </div>
-                <div>
-                    <input type="number" class="input" id="peso"
-                    placeholder="Escreva o seu peso..." min="0" required>
-                </div>
-                <button class="input button" type="submit" id="btnSubmit">
-                    calcular
-                </button>
-                <button class="input button" type="reset" id="reset-values">
-                    Redefinir os campos
-                </button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            Cuide bem da sua saúde - obrigado. <br>
-            Copyright © 2021 Kain Nhantumbo. Todos os Direitos Reservados.
-        </div>
-    </footer>
-    <script src="./js/app.js" defer></script>
+	<header>
+		<div class="header">
+			Calculadora de IMC
+		</div>
+	</header>
+	<main>
+		<section class="container">
+			<form class="form">
+				<div class="descricao">
+					Monitor
+				</div>
+				<div>
+					<textarea name="display-result" class="input display-result"
+						placeholder="Aguarde os resultados da operação aqui..." rows="4" readonly></textarea>
+				</div>
+				<div class="descricao">
+					Insira os seus dados abaixo:
+				</div>
+				<div>
+					<input type="text" class="input" id="nome" placeholder="Escreva o seu nome..." required autocomplete="off">
+				</div>
+				<div>
+					<input type="number" class="input" id="altura" placeholder="Escreva a sua altura..." min="0" required>
+				</div>
+				<div>
+					<input type="number" class="input" id="peso" placeholder="Escreva o seu peso..." min="0" required>
+				</div>
+				<button class="input button" type="submit" id="btnSubmit">
+					calcular
+				</button>
+				<button class="input button" type="reset" id="reset-values">
+					Redefinir os campos
+				</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<div class="footer">
+			Cuide bem da sua saúde - obrigado. <br>
+			Copyright © 2021 Kain Nhantumbo. Todos os Direitos Reservados.
+		</div>
+	</footer>
+	<script src="./js/app.js" defer></script>
 </body>
+
 </html>
