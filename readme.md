@@ -1,6 +1,8 @@
 # Aplicativo de Cálculo de IMC
-Esta aplicação calcula o *Índice de Massa Corporal* (IMC) com base na leitura de dados introduzidos pelo usuário, como a altura e o peso atual.
-
+Esta aplicação calcula o *Índice de Massa Corporal* (IMC) com base na leitura de dados introduzidos pelo usuário, como a altura e o peso atual.\
+\
+**Note: you can find this app deployed version at [https://kainnhantumbo.github.io/03.-App-Calculadora-de-IMC](https://kainnhantumbo.github.io/03.-App-Calculadora-de-IMC 'See deployed version')**\
+\
 ![](./images/screenshot.png "Imagem do aplicativo de Cálculo de IMC")
 
 ## Cálculo
@@ -16,8 +18,10 @@ Este aplicativo não guarda nenhum dados do usuário nem faz backups em nuvem.
 ***
 
 # BMI Calculation Application
-This application calculates the *Body Mass Index* (BMI) based on reading user-entered data such as height and current weight.
-
+This application calculates the *Body Mass Index* (BMI) based on reading user-entered data such as height and current weight.\
+\
+**Note: you can find this app deployed version at [https://kainnhantumbo.github.io/03.-App-Calculadora-de-IMC](https://kainnhantumbo.github.io/03.-App-Calculadora-de-IMC 'See deployed version')**\
+\
 ![](./images/screenshot.png "Image of the BMI Calculator application")
 
 ## Calculation
